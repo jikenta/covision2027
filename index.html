@@ -255,9 +255,7 @@
     z-index:0;
   }
   .hero-photo-frame::after {
-    content: 'NDC 2027';
     position:absolute; top:20px; left:-16px;
-    background: var(--ndc-red);
     color: var(--white); font-family:'Bebas Neue',sans-serif;
     font-size:14px; letter-spacing:3px;
     padding: 8px 16px; writing-mode: vertical-lr; text-orientation:mixed;
@@ -670,7 +668,7 @@
   .news-date { font-size:11px; color:var(--mid); letter-spacing:1px; text-transform:uppercase; margin-bottom:8px; }
   .news-body h4 { font-size:16px; font-weight:700; color:var(--dark); line-height:1.4; margin-bottom:8px; }
   .news-body p { font-size:13px; color:var(--mid); line-height:1.7; }
-  .news-more { display:flex; gap:6px; align-items:center; margin-top:14px; font-size:12px; font-weight:700; color:var(--ndc-blue); text-transform:uppercase; letter-spacing:1px; }
+  .news-more { display:flex; gap:6px; align-items:center; margin-top:14px; font-size:12px; font-weight:700; color:var(--ndc-blue); text-transform:uppercase; letter-spacing:1px;}
 
   /* ── RESPONSIVE ── */
   @media (max-width: 900px) {
@@ -734,7 +732,7 @@
       <img src="https://ndcnigeria.com/images/ndc-logo2.jpeg" width="100%" height="auto" alt="NDC Logo">
     </div>
     <div>
-      <div class="nav-name">Prince Chukwudi<br><span>Onyekwere — Mbaise 2027</span></div>
+      <div class="nav-name">Prince Chukwudi<br><span>Onyekwere</span></div>
     </div>
   </div>
   <ul class="nav-links">
@@ -783,7 +781,7 @@
     <div class="hero-content">
       <div class="hero-badge">
         <div class="badge-dot"></div>
-        <span>NDC Official Candidate · 2027 Election</span>
+        <span>NDC Candidate · 2027 Election</span>
       </div>
       <div class="hero-eyebrow">Ahiazu / Ezinihitte Mbaise Federal Constituency</div>
       <h1 class="hero-title">
@@ -848,7 +846,7 @@
       <p class="about-bio">His candidacy under the <strong>Nigeria Democratic Congress (NDC)</strong> banner represents a fresh, community-driven approach to federal representation: accessible, accountable, and anchored in the real needs of the Mbaise people.</p>
       <div class="about-stats">
         <div class="stat-box"><div class="num">2</div><div class="lbl">LGA Coverage</div></div>
-        <div class="stat-box"><div class="num">100+</div><div class="lbl">Wards Engaged</div></div>
+        <div class="stat-box"><div class="num">50+</div><div class="lbl">Wards Engaged</div></div>
         <div class="stat-box"><div class="num">2027</div><div class="lbl">Target Year</div></div>
       </div>
     </div>
@@ -919,8 +917,8 @@
         <button class="agenda-tab" onclick="switchTab(this,'tab-security')">🛡️ Security</button>
       </div>
       <div id="tab-infra" class="agenda-content active">
-        <div class="agenda-item"><div class="agenda-icon">🛣️</div><h4>Federal Road Rehabilitation Bill</h4><p>Sponsor legislation to prioritize rehabilitation of the Owerri-Okigwe road and rural feeder roads across all wards in Ahiazu and Ezinihitte Mbaise.</p></div>
-        <div class="agenda-item"><div class="agenda-icon">💡</div><h4>Rural Electrification Advocacy</h4><p>Champion rural electrification projects through the REA to bring stable power supply to underserved communities in the constituency.</p></div>
+        <div class="agenda-item"><div class="agenda-icon">🛣️</div><h4>Federal Road Rehabilitation Bill</h4><p>Sponsor legislation to prioritize rehabilitation of the Aba Branch–Ngor Okpala road and rural feeder roads across all wards in Ahiazu and Ezinihitte Mbaise.</p></div>
+        <div class="agenda-item"><div class="agenda-icon">💡</div><h4>Rural Electrification Advocacy</h4><p>Champion rural electrification projects tagged Power up Mbaise through the REA to bring stable power supply to underserved communities in the constituency.</p></div>
         <div class="agenda-item"><div class="agenda-icon">🚿</div><h4>Water & Sanitation Projects</h4><p>Push for federal allocation and implementation of clean water schemes for rural wards currently relying on unsafe water sources.</p></div>
         <div class="agenda-item"><div class="agenda-icon">🏥</div><h4>Healthcare Facility Upgrade</h4><p>Secure federal health grants to upgrade primary health care centres across the constituency with modern equipment and trained personnel.</p></div>
       </div>
@@ -1023,20 +1021,19 @@
     </div>
     <div class="gallery-grid fade-in">
       <div class="g-item" data-cat="community">
-        <img src="" alt="Prince Chukwudi - Official Portrait">
-        <div class="g-overlay"><span>🔍</span></div>
+        <img src="images/mbaise_women.jfif" alt="Prince Chukwudi - Official Portrait">
+        <div class="g-overlay"><span>📸</span></div>
       </div>
-      <div class="g-item" data-cat="party" style="background:var(--ndc-deep); display:flex; align-items:center; justify-content:center; padding:20px;">
-        <img src="" alt="NDC Logo — Service to the People" style="object-fit:contain; max-height:100%;">
-        <div class="g-overlay"><span>🔍</span></div>
+      <div class="g-item" data-cat="party" >
+        <img src="images/ndc_party_imo.jfif" alt="NDC Logo — Service to the People" >
+        <div class="g-overlay"><span>📸</span></div>
       </div>
-      <div class="g-item" data-cat="community" style="background:rgba(43,63,160,0.3)">
-        <div class="g-placeholder"><div class="icon">📸</div><p>More photos<br>coming soon</p></div>
-        <div class="g-overlay"><span>➕</span></div>
+      <div class="g-item" data-cat="community">
+        <img src="images/mbaise_com.jpg" alt="Prince Chukwudi - Official Portrait">
+        <div class="g-overlay"><span>📸</span></div>
       </div>
-      <div class="g-item" data-cat="outreach" style="background:rgba(201,168,76,0.1)">
-        <div class="g-placeholder"><div class="icon">🎥</div><p>Campaign video<br>gallery</p></div>
-        <div class="g-overlay"><span>▶</span></div>
+      <div class="g-item" data-cat="outreach" style="background:rgba(201,168,76,0.1)"><img src="images/outreach.jfif" alt="Prince Chukwudi - Official Portrait">
+        <div class="g-overlay"><span>📸</span></div>
       </div>
     </div>
   </div>
@@ -1053,7 +1050,7 @@
     </div>
     <div class="downloads-grid fade-in">
       <div class="dl-card">
-        <div class="dl-icon"><img src="images/1000165263.png" width="80px" height="80px" alt="Click to Download"></div>
+        <div class="dl-icon"><img src="images/1000165263.png" width="80px" height="80px" alt="Click to Download" ></div>
         <h4>Campaign Poster</h4>
         <p>High-resolution printable poster featuring the NDC logo and candidate portrait.</p>
         <button class="dl-btn">⬇ Download</button>
@@ -1061,7 +1058,7 @@
       
   
       <div class="dl-card">
-        <div class="dl-icon"><img src="images/1000167956.png" width="80px" height="80px" alt="Click to Download"></div>
+        <div class="dl-icon"><img src="images/1000167956.png" width="80px" height="80px" alt="Click to Download" ></div>
         <h4>Digital Flyer Pack</h4>
         <p>Social media optimized flyers for Facebook, Instagram, and Twitter sharing.</p>
         <button class="dl-btn" >
@@ -1080,43 +1077,43 @@
         <h2 class="section-title">News &amp; Campaign<br>Updates</h2>
         <div class="divider"></div>
       </div>
-      <a href="#" class="btn-outline" style="color:var(--ndc-blue); border-color:var(--ndc-blue); padding:12px 24px; font-size:12px;">All Updates →</a>
+      <a href="https://ndcnigeria.com/news" class="btn-outline" style="color:var(--ndc-blue); border-color:var(--ndc-blue); padding:12px 24px; font-size:12px;">All Updates →</a>
     </div>
     <div class="news-grid fade-in">
       <div class="news-card">
         <div class="news-card-top">
-          <span>📣</span>
+          <img src="https://res.cloudinary.com/dgdnycu4h/image/upload/v1779953087/ndc/news/img-1865-d4eb26jpeg.jpg">
           <div class="news-tag">Announcement</div>
         </div>
         <div class="news-body">
-          <div class="news-date">May 2026</div>
+          <div class="news-date">April 2026</div>
           <h4>Prince Chukwudi Officially Declares for 2027 House of Reps Race</h4>
           <p>In a landmark declaration ceremony attended by party stakeholders and community leaders, Prince Chukwudi Onyekwere formally announces his candidacy.</p>
-          <div class="news-more">Read more →</div>
+          <div class="news-more"><a href="https://ndcnigeria.com/news">Read more →</a></div>
         </div>
       </div>
       <div class="news-card">
         <div class="news-card-top">
-          <span>🤝</span>
+          <img src="https://res.cloudinary.com/dgdnycu4h/image/upload/v1780221713/ndc/news/img-1947-ddf127png.png">
           <div class="news-tag">Community</div>
         </div>
         <div class="news-body">
-          <div class="news-date">April 2026</div>
-          <h4>Medical Outreach Reaches Over 500 Beneficiaries in Ezinihitte Mbaise</h4>
-          <p>In a powerful demonstration of his commitment to service, the candidate organized a free medical outreach programme across three communities.</p>
-          <div class="news-more">Read more →</div>
+          <div class="news-date">May 2026</div>
+          <h4>Massive Turnout as NDC Holds Nationwide Primaries</h4>
+          <p>In a powerful demonstration for a better Nigeria, the good citizens of Ahiazu/Ezinihitte Mbaise across different communities came out in their numbers to clamor support for Nigeria Democratic Congress NDC in the just concluded primaries.</p>
+          <div class="news-more"><a href="https://ndcnigeria.com/news/massive-turnout-as-ndc-holds-nationwide-primaries-affirmations-f3c1162e">Read more →</a></div>
         </div>
       </div>
       <div class="news-card">
         <div class="news-card-top">
-          <span>🏛️</span>
-          <div class="news-tag">Party</div>
+          <img src="https://res.cloudinary.com/dgdnycu4h/image/upload/v1780222647/ndc/news/8b0885d4-d4e7-47e0-91ba-6eaa768c29f5-7e3da4jpeg.jpg">
+          <div class="news-tag">Featured</div>
         </div>
         <div class="news-body">
-          <div class="news-date">March 2026</div>
-          <h4>NDC Ward Executives Give Unanimous Backing to Prince Chukwudi's Campaign</h4>
-          <p>Ward-level executives across Ahiazu local government formally endorsed the candidacy of Prince Chukwudi Onyekwere for the 2027 primaries.</p>
-          <div class="news-more">Read more →</div>
+          <div class="news-date">May 2026</div>
+          <h4>NDC Special Convention affirms Peter Obi, Kwankwaso ticket for 2027</h4>
+          <p>The Nigeria Democratic Congress (NDC) recorded a historic milestone as party leaders, delegates, stakeholders and supporters from across the federation affirmed the presidential candidature of His Excellency, Mr. Peter Obi, and the vice presidential candidature of His Excellency, Senator Rabiu Musa Kwankwaso, at the Party's Special Convention held in Abuja.</p>
+          <div class="news-more"><a href="https://ndcnigeria.com/news/ndc-special-convention-affirms-peter-obi-kwankwaso-ticket-for-2027-c548f05b">Read more →</a></div>
         </div>
       </div>
     </div>
@@ -1152,7 +1149,7 @@
         </div>
         <div class="form-group">
           <label>Phone Number (WhatsApp) *</label>
-          <input id="f-phone" type="tel" placeholder="+234 800 000 0000">
+          <input id="f-phone" type="tel" placeholder="+234 703 189 6999">
         </div>
         <div class="form-group">
           <label>Email Address</label>
@@ -1212,13 +1209,6 @@
           </div>
         </div>
         <div class="c-item">
-          <div class="c-icon">✉️</div>
-          <div class="c-item-content">
-            <strong>Campaign Email</strong>
-            <span><a href="mailto:covision2027@gmail.com" style="color:var(--gold-light); text-decoration:none;">covision2027@gmail.com</a></span>
-          </div>
-        </div>
-        <div class="c-item">
           <div class="c-icon">🏛️</div>
           <div class="c-item-content">
             <strong>Party</strong>
@@ -1228,10 +1218,10 @@
       </div>
       <p style="color:rgba(255,255,255,0.5); font-size:14px; margin-bottom:20px;">Follow the campaign on social media</p>
       <div class="social-links">
-        <a href="#" class="social-link">📘 Facebook</a>
+        <a href="https://facebook.com/covision2027" class="social-link">📘 Facebook</a>
         <a href="#" class="social-link">📸 Instagram</a>
-        <a href="#" class="social-link">🐦 Twitter/X</a>
-        <a href="#" class="social-link">▶ Tiktok</a>
+        <a href="https://x.com/covision2027" class="social-link">🐦 Twitter/X</a>
+        <a href="https://www.tiktok.com/@vision.20272?_r=1&_t=ZS-96orAqTBAGK" class="social-link">▶ Tiktok</a>
       </div>
     </div>
   </div>
@@ -1286,7 +1276,7 @@
 </footer>
 
 <!-- FLOATING WHATSAPP -->
-<a href="https://wa.me/234000000000?text=Hello%2C%20I%20want%20to%20support%20Prince%20Chukwudi%20Onyekwere%20for%202027!" class="wa-float" target="_blank" title="Chat on WhatsApp"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-icon-new-png-image_6315990.png" width="56px" height="56px"></a>
+<a href="https://wa.me/+2347031896999?text=Hello%2C%20I%20want%20to%20support%20Prince%20Chukwudi%20Onyekwere%20for%202027!" class="wa-float" target="_blank" title="Chat on WhatsApp"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-icon-new-png-image_6315990.png" width="56px" height="56px"></a>
 
 <!-- TOAST -->
 <div class="toast" id="toast"></div>
